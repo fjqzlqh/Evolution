@@ -1,4 +1,5 @@
-﻿using System;
+﻿using leetcode.每日一题._8._字符串转换整数__atoi_;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -10,7 +11,7 @@ namespace leetcode
         {
             Console.WriteLine("Hello World!");
 
-            Console.WriteLine(Reverse(-123));
+            Console.WriteLine(Class8.MyAtoi2("-91283472332"));
             Console.ReadKey();
         }
 

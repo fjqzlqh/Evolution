@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\cs_project\\leetcode\\leetcode\\leetcode.csproj": {}
+    "F:\\github\\leetcode\\leetcode\\leetcode\\leetcode.csproj": {}
   },
   "projects": {
-    "D:\\cs_project\\leetcode\\leetcode\\leetcode.csproj": {
+    "F:\\github\\leetcode\\leetcode\\leetcode\\leetcode.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\cs_project\\leetcode\\leetcode\\leetcode.csproj",
+        "projectUniqueName": "F:\\github\\leetcode\\leetcode\\leetcode\\leetcode.csproj",
         "projectName": "leetcode",
-        "projectPath": "D:\\cs_project\\leetcode\\leetcode\\leetcode.csproj",
+        "projectPath": "F:\\github\\leetcode\\leetcode\\leetcode\\leetcode.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\cs_project\\leetcode\\leetcode\\obj\\",
+        "outputPath": "F:\\github\\leetcode\\leetcode\\leetcode\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
