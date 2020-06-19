@@ -49,7 +49,7 @@ using System.Text;
 
 */
 
-namespace leetcode.每日一题._8._字符串转换整数__atoi_
+namespace leetcode
 {
     class Class8
     {

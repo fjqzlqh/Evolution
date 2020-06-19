@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace leetcode.每日一题._9._回文数
+namespace leetcode
 {
     class Class9
     {
+        //判断右边是否和左边相等即可,不需要整个遍历
         public bool IsPalindrome(int x)
         {
             if (x < 0) return false;

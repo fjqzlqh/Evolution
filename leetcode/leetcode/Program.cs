@@ -1,5 +1,4 @@
-﻿using leetcode.每日一题._8._字符串转换整数__atoi_;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -254,6 +253,12 @@ namespace leetcode
                 }
             }
             return ret;
+        }
+
+        public static int Binary(int[] arr, int target)
+        {
+
+            return -1;
         }
     }
 }
