@@ -10,7 +10,7 @@ namespace leetcode
         {
             Console.WriteLine("Hello World!");
 
-            Console.WriteLine(Class8.MyAtoi2("-91283472332"));
+            Console.WriteLine(Step(10));
             Console.ReadKey();
         }
 
@@ -40,6 +40,7 @@ namespace leetcode
             return max;
         }
 
+        //4. 寻找两个正序数组的中位数
         public static double FindMedianSortedArrays(int[] nums1, int[] nums2)
         {
             if (nums1.Length > nums2.Length)
@@ -49,39 +50,7 @@ namespace leetcode
             int len1 = nums1.Length;
             int len2 = nums2.Length;
             
-            int begin = 0;
-            int end = len1 - 1;
-            int i, j;
-            int totalLen = len1 + len2 - 1;
-            bool bFind = false;
-            bool bEvenNumber = totalLen % 2 != 0;
-            while (begin <= end)
-            {
-                i = (begin + end) / 2;
-                j = totalLen / 2 - i;
-
-                if (i != 0 && j != len2 - 1 && nums1[i] < nums2[j - 1])
-                {
-                    begin = i + 1;
-                }
-                else if (i != len1 - 1 && j != 0 && nums2[j] < nums1[i - 1])
-                {
-                    end = i - 1;
-                }
-                else 
-                {
-                    
-                }
-
-                if (i == 0) {
-
-                }
-                else if(i == len1 - 1)
-                { 
-
-                }
-
-            }
+            
 
             return 0.0;
         }
@@ -257,8 +226,30 @@ namespace leetcode
 
         public static int Binary(int[] arr, int target)
         {
+            int begin = 0;
+            int end = arr.Length;
+            while(begin <= end)
+            {
+                int mid = (begin + end) / 2;
+                if (target == arr[mid])
+                    return mid;
 
+                if(arr[mid] > target)
+                {
+                    end = mid - 1;
+                }
+                else
+                {
+                    begin = mid + 1;
+                }
+            }
             return -1;
+        }
+
+        public static int Step(int n) {
+            if (n == 1) return 1;
+            if (n == 2) return 2;
+            return Step(n - 1) + Step(n - 2);
         }
     }
 }
